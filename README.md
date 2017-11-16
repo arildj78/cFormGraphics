@@ -35,5 +35,5 @@ End Sub
 * Open UserForm1 by doubleclicking it in the project tree
 * Run the project by pressing F5.
 
-You should now see that the image you put on the form have is divided into two colored
+You should now see that the image you put on the form is divided into two colored
 triangles. By pressing the CommandButton the colors should change.
