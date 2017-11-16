@@ -18,7 +18,6 @@ to draw on.
 * Put an Image control on the form and name it Image1
 * Put an CommandButton control on the form and name it CommandButton1
 * Copy the following code to UserForm1 code (rightclick UserForm1 and select View Code)
-
 ```VB
 Option Explicit
 
@@ -33,7 +32,8 @@ Private Sub CommandButton1_Click()
     MyGraphic.Color2 = RGB(0, 0, 255)
 End Sub
 ```
+* Open UserForm1 by doubleclicking it in the project tree
+* Run the project by pressing F5.
 
-Open UserForm1 by doubleclicking it in the project tree and run it by pressing F5.
 You should now see that the image you put on the form have is divided into two colored
 triangles. By pressing the CommandButton the colors should change.
