@@ -1,13 +1,13 @@
-#Class FormGraphics for MS Forms 2.0
+# Class FormGraphics for MS Forms 2.0
 Base class for drawing custom UI elements in Visual Basic for Applications (VBA).
 All drawing is done by calls to Windows API.
 
-##Theory of operation
+## Theory of operation
 After creating an instance of the object it is given a an empty Image usercontrol
 to draw on.
 
 
-##Example project
+## Example project
 * Create an empty Excel Workbook and open VBA
 * Import the following files to the project
     - cFormGraphics.cls
@@ -18,6 +18,7 @@ to draw on.
 * Put an Image control on the form and name it Image1
 * Put an CommandButton control on the form and name it CommandButton1
 * Copy the following code to UserForm1 code (rightclick UserForm1 and select View Code)
+
 '''
 Option Explicit
 
